@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SaaSPro</string>
+    <string name="s">S</string>
+    <string name="a">a</string>
+    <string name="p">P</string>
+    <string name="r">r</string>
+    <string name="o">o</string>
+    <string name="account">Account</string>
+    <string name="login">Login</string>
+    <string name="remember_me">Remember me</string>
+    <string name="cancel">CANCEL</string>
+    <string name="yes">YES</string>
+    <string name="ok">OK</string>
+    <string name="error">Error</string>
+    <string name="answer">Answer</string>
+    <string name="continue_text">Continue</string>
+    <string name="saaspro">SaaSPro</string>
+    <string name="logout">Logout</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="security_check">Security Check</string>
+    <string name="question">"Question: "</string>
+</resources>

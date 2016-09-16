@@ -1,0 +1,35 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_text"
+    tools:context="com.avad.avaddroid.NavigationDrawerFragment">
+
+    <LinearLayout
+        android:id="@+id/title_header"
+        android:layout_width="match_parent"
+        android:background="@color/primary"
+        android:orientation="vertical"
+        android:layout_height="178dp">
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_above="@+id/navigation_list"
+        android:gravity="left|bottom"
+        android:paddingLeft="16dp"
+        android:paddingBottom="12dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_light"
+        android:text="@string/saaspro"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/title_header"
+        android:id="@+id/navigation_list"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:background="@color/white_text"
+        android:layout_height="match_parent"/>
+</RelativeLayout>
